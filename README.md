@@ -109,6 +109,10 @@ jupyter notebook coverage_evaluation.ipynb
 jupyter notebook cited_in_cited_by_rag.ipynb
 ```
 
+## 📊 Dataset
+You can access the dataset on Hugging Face:  
+➡️ [limitation-generation-dataset-bagels](https://huggingface.co/datasets/IbrahimAlAzhar/limitation-generation-dataset-bagels)
+
 
 Acknowledgments
 
