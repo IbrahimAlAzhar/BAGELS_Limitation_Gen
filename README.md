@@ -84,6 +84,7 @@ These files build the **gold standard dataset** for evaluation.
 
 ---
 
+```bash
 ## ⚙️ Installation
 
 Clone the repo:
@@ -106,7 +107,7 @@ jupyter notebook evaluation/coverage_evaluation.ipynb
 
  Example: Run citation-aware RAG
 jupyter notebook rag/cited_in_cited_by_rag.ipynb
-
+```
 
 ```bash
 flowchart LR
