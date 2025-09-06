@@ -126,4 +126,23 @@ Acknowledgments
 This repository is part of ongoing research at Northern Illinois University (NIU).
 We thank all contributors, reviewers, and open-source communities (Hugging Face, LangChain, OpenAI) for tools and datasets that made this work possible.
 
+## Citation
+This dataset is related with below work
+
+```bash
+Azher, Ibrahim Al; Mokarrama, Miftahul Jannat; Guo, Zhishuai; Choudhury, Sagnik Ray; Alhoori, Hamed (2025). *BAGELS: Benchmarking the Automated Generation and Extraction of Limitations from Scholarly Text*. arXiv preprint arXiv:2505.18207.
+```
+
+This work has been **accepted at EMNLP 2025 (Findings)**.
+
+If you use this dataset, please cite:
+
+```bash
+@article{azher2025bagels,
+  title={BAGELS: Benchmarking the Automated Generation and Extraction of Limitations from Scholarly Text},
+  author={Azher, Ibrahim Al and Mokarrama, Miftahul Jannat and Guo, Zhishuai and Choudhury, Sagnik Ray and Alhoori, Hamed},
+  journal={arXiv preprint arXiv:2505.18207},
+  year={2025}
+}
+```
 
