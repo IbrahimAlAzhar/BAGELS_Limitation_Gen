@@ -105,6 +105,8 @@ jupyter notebook evaluation/coverage_evaluation.ipynb
  Example: Run citation-aware RAG
 jupyter notebook rag/cited_in_cited_by_rag.ipynb
 
+
+```bash
 flowchart LR
     A[Research Paper] --> B[Ground Truth Construction]
     A --> C[Model (BART / GPT-4o / T5 / etc.)]
@@ -114,6 +116,8 @@ flowchart LR
     A --> F[Cited-in / Cited-by Papers]
     F --> G[RAG Pipeline]
     G --> D
+
+```
 
 Acknowledgments
 
