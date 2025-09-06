@@ -109,18 +109,6 @@ jupyter notebook coverage_evaluation.ipynb
 jupyter notebook cited_in_cited_by_rag.ipynb
 ```
 
-```mermaid
-flowchart LR
-    A[Research Paper] --> B[Ground Truth Construction]
-    A --> C[Model (BART / GPT-4o / T5 / etc.)]
-    C --> D[Generated Limitations]
-    B --> E[Evaluation (Coverage & Performance)]
-    D --> E
-    A --> F[Cited-in / Cited-by Papers]
-    F --> G[RAG Pipeline]
-    G --> D
-
-```
 
 Acknowledgments
 
