@@ -14,6 +14,7 @@ The repo also provides tools for **ground truth preparation, evaluation (coverag
 
 ---
 
+```bash
 ## 📂 Repository Structure
 
 ├── models/
@@ -36,7 +37,7 @@ The repo also provides tools for **ground truth preparation, evaluation (coverag
 │   └── cited_in_cited_by_rag.ipynb
 │
 └── README.md 
-
+```
 
 
 
