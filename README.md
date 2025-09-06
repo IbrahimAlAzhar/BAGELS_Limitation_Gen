@@ -6,9 +6,9 @@ The repo also provides tools for **ground truth preparation, evaluation (coverag
 ---
 
 ## 🚀 Features
-- **Multi-model limitation generation**: Experiments with BART, Pegasus, T5, GPT-3.5, GPT-4o, and Mistral.  
+- **limitation generation**: Experiments with BART, Pegasus, T5, GPT-3.5, GPT-4o, and Mistral.  
 - **Ground truth construction**: Extract author-mentioned limitations and OpenReview peer feedback.  
-- **Evaluation pipeline**: Measure coverage and performance (precision, recall, F1, semantic similarity).  
+- **Evaluation pipeline**: Measure coverage (Ground Truth Coverage, LLM-generated limitation coverage) and performance (precision, recall, F1, semantic similarity).  
 - **Citation-aware RAG**: Use *cited-in* and *cited-by* papers to enrich context.  
 - **Reproducible notebooks**: All experiments are structured as Jupyter notebooks.  
 
@@ -96,17 +96,17 @@ Install dependencies:
 pip install -r requirements.txt
 
 Notes:
-GPT-3.5 and GPT-4o notebooks require an OpenAI API key.
+GPT-3.5 and GPT-4o mini notebooks require an OpenAI API key.
 Other models (BART, Pegasus, T5, Mistral) use Hugging Face Transformers. 
 
 Example: Run BART limitation generation
-jupyter notebook models/bart_limitation_generation.ipynb
+jupyter notebook bart_limitation_generation.ipynb
 
 Example: Evaluate coverage
-jupyter notebook evaluation/coverage_evaluation.ipynb
+jupyter notebook coverage_evaluation.ipynb
 
  Example: Run citation-aware RAG
-jupyter notebook rag/cited_in_cited_by_rag.ipynb
+jupyter notebook cited_in_cited_by_rag.ipynb
 ```
 
 ```bash
