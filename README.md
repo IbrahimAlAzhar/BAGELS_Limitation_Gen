@@ -109,7 +109,7 @@ jupyter notebook coverage_evaluation.ipynb
 jupyter notebook cited_in_cited_by_rag.ipynb
 ```
 
-```bash
+```mermaid
 flowchart LR
     A[Research Paper] --> B[Ground Truth Construction]
     A --> C[Model (BART / GPT-4o / T5 / etc.)]
