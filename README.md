@@ -18,23 +18,24 @@ The repo also provides tools for **ground truth preparation, evaluation (coverag
 ## 📂 Repository Structure
 
 ├── models/
-│   ├── bart_limitation_generation.ipynb
-│   ├── pegasus_limitation_generation.ipynb
-│   ├── t5_limitation_generation.ipynb
-│   ├── gpt35_limitation_generation.ipynb
-│   ├── gpt4o_limitation_generation.ipynb
-│   └── mistral_limitation_generation.ipynb
+│   ├── BAGELS_BART_(Limitation_Generation).ipynb
+│   ├── BAGELS_Pegasus_(Limitation_Generation).ipynb
+│   ├── BAGELS_T5_(Limitation_Generation).ipynb
+│   ├── BAGELS_GPT_3_5_+_RAG_(Limitation_Generation)_ipynb.ipynb
+│   ├── BAGELS_GPT_4o_(Limitation_Generation).ipynb
+│   └── BAGELS_Mistral_(Limitation_Generation).ipynb
+|   └── BAGELS_Llama_(Limitation_Generation).ipynb
 │
 ├── ground_truth/
-│   ├── author_mentioned_limitations.ipynb
-│   └── openreview_limitations.ipynb
+│   ├── BAGELS_Ground_Truth_Limitation_extraction.ipynb
+│   └── BAGELS_OpenReview_Extraction.ipynb
 │
 ├── evaluation/
-│   ├── coverage_evaluation.ipynb
-│   └── performance_evaluation.ipynb
+│   ├── Evaluation_(Coverage)_LLM_as_a_Judge.ipynb
+│   └── Evaluation_(Performance).ipynb
 │
 ├── rag/
-│   └── cited_in_cited_by_rag.ipynb
+│   └── BAGELS_Cited_In_and_Cited_by.ipynb
 │
 └── README.md 
 ```
@@ -47,31 +48,32 @@ The repo also provides tools for **ground truth preparation, evaluation (coverag
 
 ### 🔹 Models (`/models`)
 Each notebook generates limitations using a specific model:  
-- **BART** → `bart_limitation_generation.ipynb`  
-- **Pegasus** → `pegasus_limitation_generation.ipynb`  
-- **T5** → `t5_limitation_generation.ipynb`  
-- **GPT-3.5** → `gpt35_limitation_generation.ipynb`  
-- **GPT-4o** → `gpt4o_limitation_generation.ipynb`  
-- **Mistral** → `mistral_limitation_generation.ipynb`  
-
+- **BART** → `BAGELS_BART_(Limitation_Generation).ipynb`  
+- **Pegasus** → `BAGELS_Pegasus_(Limitation_Generation).ipynb`  
+- **T5** → `BAGELS_T5_(Limitation_Generation).ipynb`  
+- **GPT-3.5** → `BAGELS_GPT_3_5_+_RAG_(Limitation_Generation)_ipynb.ipynb`  
+- **GPT-4o** → `BAGELS_GPT_4o_(Limitation_Generation).ipynb`  
+- **Mistral** → `BAGELS_Mistral_(Limitation_Generation).ipynb`
+- **Llama** → `BAGELS_Llama_(Limitation_Generation).ipynb`  
+ 
 ---
 
 ### 🔹 Ground Truth (`/ground_truth`)
-- `author_mentioned_limitations.ipynb` → Extracts explicit limitations from paper sections (e.g., *Limitations*, *Discussion*).  
-- `openreview_limitations.ipynb` → Collects implicit limitations from OpenReview peer reviews.  
+- `BAGELS_Ground_Truth_Limitation_extraction.ipynb` → Extracts explicit limitations from paper sections (e.g., *Limitations*, *Discussion*).  
+- `BAGELS_OpenReview_Extraction.ipynb` → Collects implicit limitations from OpenReview peer reviews.  
 
 These files build the **gold standard dataset** for evaluation.  
 
 ---
 
 ### 🔹 Evaluation (`/evaluation`)
-- `coverage_evaluation.ipynb` → Measures how well generated limitations cover ground truth.  
-- `performance_evaluation.ipynb` → Computes metrics such as Precision, Recall, F1, and novelty.  
+- `Evaluation_(Coverage)_LLM_as_a_Judge.ipynb` → Measures how well generated limitations cover ground truth.  
+- `Evaluation_(Performance).ipynb` → Computes metrics such as Precision, Recall, F1, and novelty.  
 
 ---
 
 ### 🔹 RAG (`/rag`)
-- `cited_in_cited_by_rag.ipynb` → Uses *cited-in* and *cited-by* papers as external knowledge to improve limitation generation.  
+- `BAGELS_Cited_In_and_Cited_by.ipynb` → Uses *cited-in* and *cited-by* papers as external knowledge to improve limitation generation.  
 
 ---
 
