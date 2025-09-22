@@ -36,6 +36,7 @@ The repo also provides tools for **ground truth preparation, evaluation (coverag
 │
 ├── rag/
 │   └── BAGELS_Cited_In_and_Cited_by.ipynb
+|   └── BAGELS_Cited_by_data_collection.ipynb
 │
 └── README.md 
 ```
